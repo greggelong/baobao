@@ -4,6 +4,8 @@ html, body {
   background-color: black;
   color:white;
   font-size: large;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar for projection */
 }
 canvas {
   display: block;
