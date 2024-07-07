@@ -17,6 +17,7 @@ function setup() {
   cnv = createCanvas(800, 800);
   let cx = floor((windowWidth - cnv.width) / 2);
   let cy = floor((windowHeight - cnv.height) / 2);
+  pixelDensity(1);
   cnv.position(cx, cy);
   baobao.resize(800,0)
   mary.resize(0,730)
